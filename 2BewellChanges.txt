@@ -1,0 +1,18 @@
+*****Sales Tax Report
+*****Discount Given Report
+*****Edited Bill Report
+*****Purchase Tax ReportSales Report By Item
+*****Closing Stock Report
+*****Stock Movement ReportSales Report By Dept Transfer
+*****Sales Report By Item
+*****Purchase Report By Item
+*****Stock Adjustment Report
+*****Expiry Stock Report
+*****Sales Margin Report
+Free Qty Report
+Schedule H Report
+Non Moving Items
+Fast / Slow Moving Items
+
+Purchase Return Pending Report
+Drug Destroyed Report

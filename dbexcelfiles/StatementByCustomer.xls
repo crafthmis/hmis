@@ -1,0 +1,299 @@
+<style type="text/css">
+<!--
+.style1 {font-size: 10px}
+.style12 {font-size: 12px; font-weight: bold; }
+.style13 {font-size: 12px}
+.bodytext31 {FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #3b3b3c; FONT-FAMILY: Tahoma
+}
+-->
+</style>
+<script language="javascript">
+
+function escapekeypressed()
+{
+	//alert(event.keyCode);
+	if(event.keyCode=='27'){ window.close(); }
+}
+
+</script>
+<!--onLoad="window.print();"-->
+<body  onkeydown="escapekeypressed()">
+<table id="AutoNumber3" style="BORDER-COLLAPSE: collapse" 
+            bordercolor="#666666" cellspacing="0" cellpadding="4" width="960" 
+            align="left" border="1">
+  <tbody>
+    <tr>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td colspan="5" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>Statement By Customer </strong></div></td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td colspan="5" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>FIVE STAR HOSPITALS PVT LTD</strong>&nbsp;</div></td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td colspan="5" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>Report Date From 2013-01-16 To 2013-02-16</strong></div></td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="3%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><strong>No.</strong></td>
+      <td width="9%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><strong>Date</strong></td>
+      <td width="26%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><strong> Customer </strong></td>
+      <td width="19%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><strong> Particulars </strong></td>
+      <td width="12%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>By Sales </strong></div></td>
+      <td width="11%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>By Collections </strong></div></td>
+      <td width="11%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>By Sales Return </strong></div></td>
+      <td width="9%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>By Payments </strong></div></td>
+    </tr>
+			    <tr >
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left">1</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">2013-02-08</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">SIMPLE SOLUTIONS INDIA PVT LTD.</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">BY SALES (BILL NO:9)</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+        2500.00      </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+              </div></td>
+    </tr>
+        <tr >
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left">2</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">2013-02-02</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">SIMPLE SOLUTIONS INDIA PVT LTD.</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">BY SALES (BILL NO:8)</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+        449.16      </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+              </div></td>
+    </tr>
+        <tr >
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left">3</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">2013-01-31</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">MURUGAPPA GROUP OF HOSPITALS</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">BY SALES (BILL NO:7)</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+        1500.00      </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+              </div></td>
+    </tr>
+        <tr >
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left">4</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">2013-01-31</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">Murugappa Group Of Hospitals</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">BY CASH (BILL NO.)</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+              </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+          10000.00      </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+              </div></td>
+    </tr>
+        <tr >
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left">5</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">2013-01-31</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">MURUGAPPA GROUP OF HOSPITALS</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">BY SALES (BILL NO:6)</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+        75000.00      </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+              </div></td>
+    </tr>
+        <tr >
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left">6</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">2013-01-24</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">SIMPLE SOLUTIONS INDIA PVT LTD.</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">BY SALES RETURN (BILL NO:1)</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+              </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+          2500.00      </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+              </div></td>
+    </tr>
+        <tr >
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left">7</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">2013-01-23</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">Simple Solutions India Pvt Ltd.</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">BY CASH (BILL NO.)</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+              </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+          150.00      </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+              </div></td>
+    </tr>
+        <tr >
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left">8</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">2013-01-23</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">SIMPLE SOLUTIONS INDIA PVT LTD.</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">BY SALES (BILL NO:5)</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+        1650.00      </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+              </div></td>
+    </tr>
+        <tr >
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left">9</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">2013-01-22</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">HYDERABAD PAPER MILLS PVT LTD</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">BY SALES (BILL NO:4)</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+        1575.00      </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+              </div></td>
+    </tr>
+        <tr >
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left">10</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">2013-01-22</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">HYDERABAD PAPER MILLS PVT LTD</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">BY SALES (BILL NO:3)</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+        1733.00      </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+              </div></td>
+    </tr>
+        <tr >
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left">11</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">2013-01-22</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">SIMPLE SOLUTIONS INDIA PVT LTD.</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">BY SALES (BILL NO:2)</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+        1523.00      </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+              </div></td>
+    </tr>
+        <tr >
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left">12</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">2013-01-18</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">SIMPLE SOLUTIONS INDIA PVT LTD.</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div class="bodytext31">BY SALES (BILL NO:1)</div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+        1650.00      </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+                </div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left"><div align="right">
+              </div></td>
+    </tr>
+        <tr>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>Total : </strong></div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>87580.16</strong></div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>10150.00</strong></div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>2500.00</strong></div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>0.00</strong></div></td>
+    </tr>
+    <tr>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>Balance : </strong></div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>
+        77430.16      </strong></div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>
+        2500.00      </strong></div></td>
+    </tr>
+  </tbody>
+</table>
+</body>

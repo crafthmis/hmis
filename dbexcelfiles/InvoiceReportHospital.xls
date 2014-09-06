@@ -1,0 +1,999 @@
+<style type="text/css">
+<!--
+.bodytext31 {FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #3b3b3c; FONT-FAMILY: Tahoma; text-decoration:none
+}
+-->
+</style>
+<script language="javascript">
+
+function escapekeypressed()
+{
+	//alert(event.keyCode);
+	if(event.keyCode=='27'){ window.close(); }
+}
+
+</script>
+<!--onLoad="window.print();"-->
+
+<body  onkeydown= "escapekeypressed()">
+<table id="AutoNumber3" style="BORDER-COLLAPSE: collapse" 
+            bordercolor="#666666" cellspacing="0" cellpadding="4" width="800" 
+            align="left" border="1">
+  <tbody>
+  <tr>
+              <td colspan="26" align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>Hospital Invoice Report</strong></div></td>
+            </tr>
+            <tr>
+              <td colspan="26" align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>AMF Hospital Private Limited</strong>&nbsp;</div></td>
+            </tr>
+            <tr>
+              <td colspan="26" align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>Report Date From 2014-01-09 To 2014-01-17</strong></div></td>
+            </tr>
+			<tr>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#ffffff"><strong>No.</strong></td>
+              
+              <!--<td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#ffffff"><strong>PDF</strong></td>-->
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Bill</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Date </strong></div></td>
+              <td  align="left" valign="center" 
+                bgcolor="#ffffff" class="bodytext31"><strong> Patient ID </strong></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#ffffff"><strong> Patient </strong></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Nett</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Cash</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Cheque</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Online</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Card</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Credit</strong></div></td>
+				<td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Insurance</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Pending</strong></div></td>
+              <td align="left" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>SuTotal1</strong></div></td>
+              <td align="left" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>Disc%</strong></div></td>
+              <td align="left" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>DiscRs</strong></div></td>
+              <td align="left" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>SubTotal2</strong></div></td>
+              <td align="left" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><span class="bodytext31"><strong>Tax</strong></span></td>
+              <td align="left" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><span class="bodytext31"><strong>Packing Charge</strong></span></td>
+              <td align="left" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><span class="bodytext31"><strong>Delivery Charge</strong></span></td>
+              <!--<td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#ffffff"><strong>Delivery</strong></td>-->
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#ffffff"><strong>Nett</strong></td>
+              
+              <td width="6%" align="left" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>FinancialYear</strong></div></td>
+              <td width="6%" align="left" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>UserName</strong></div></td>
+              <td width="16%" align="left" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>Remarks</strong></div></td>
+			  <td width="16%" align="left" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>Insurance Company</strong></div></td>
+			  <td width="16%" align="left" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>TPA Name</strong></div></td>
+              </tr>
+			              <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  1</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  41</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  10-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000038</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  RAJJ</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">LIC</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left">bbbbb</div></td>
+              </tr>
+				            <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  2</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  40</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  10-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000037</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  ARUN</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">LIC</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left">bbbbb</div></td>
+              </tr>
+				            <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  3</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  39</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  10-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000036</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  AAAA</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">ICICI Insurance</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left">ddddd</div></td>
+              </tr>
+				            <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  4</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  38</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  10-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000034</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  PANDI</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">LIC</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left">bbbbb</div></td>
+              </tr>
+				            <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  5</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  37</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  10-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000033</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  BOSS</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">LIC</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left">bbbbb</div></td>
+              </tr>
+				            <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  6</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  36</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  10-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000033</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  BOSS</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">LIC</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left">bbbbb</div></td>
+              </tr>
+				            <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  7</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  35</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  10-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000032</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  DOSSBOSS</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">LIC</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left">bbbbb</div></td>
+              </tr>
+				            <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  8</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  34</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  10-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000031</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  VENKATESH</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">LIC</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left">bbbbb</div></td>
+              </tr>
+				            <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  9</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  33</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  10-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000030</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  JAI KUMAR</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  500.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  500.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  500.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  500.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  500.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  500.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">LIC</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left">bbbbb</div></td>
+              </tr>
+				            <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  10</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  32</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  10-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000029</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  JON</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">LIC</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left">bbbbb</div></td>
+              </tr>
+				            <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  11</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  31</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  10-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000029</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  JON</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  500.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  500.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  500.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  500.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  500.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  500.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">LIC</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left">bbbbb</div></td>
+              </tr>
+				            <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  12</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  30</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  10-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000028</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  JAMES</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"></div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left"></div></td>
+              </tr>
+				            <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  13</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  28</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  10-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000027</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  DOSS</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">LIC</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left">bbbbb</div></td>
+              </tr>
+				            <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  14</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  27</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  09-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000026</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  RAJKUMAR</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">LIC</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left">ccccc</div></td>
+              </tr>
+				            <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  15</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  26</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  09-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000019</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  THEN</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">LIC</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left">aaaaa</div></td>
+              </tr>
+				            <tr >
+              <td class="bodytext31" valign="center"  align="left">
+			  16</td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left"> 
+			  25</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">
+                  09-JAN-2014              </div></td>
+              <td  align="left" valign="center" class="bodytext31"><div class="bodytext31"> 
+			  AMF00000024</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div class="bodytext31">
+			  RAJA</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.000000&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right"> 
+			  0.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="right">
+			  250.00&nbsp;</div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="center">
+                                
+                            2013</div></td>
+              <td class="bodytext31" valign="center"  align="left"> 
+                <div align="center">admin</div></td>
+              
+              <td  align="left" valign="center" class="bodytext31"><div align="center"></div></td>
+              <td class="bodytext31" valign="center"  align="left"><div align="left">LIC</div></td>
+			  <td class="bodytext31" valign="center"  align="left"><div align="left">bbbbb</div></td>
+              </tr>
+				            <tr>
+              <td class="bodytext31" valign="center"  align="left" 
+                >&nbsp;</td>
+              <td class="bodytext31" valign="center"  align="left" 
+                >&nbsp;</td>
+              <td class="bodytext31" valign="center"  align="left" 
+                >&nbsp;</td>
+              <td class="bodytext31" valign="center"  align="left" 
+                >&nbsp;</td>
+              <td class="bodytext31" valign="center"  align="left" 
+                ><strong>Total</strong></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                ><div align="right"><strong> 4500.00 </strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                ><div align="right"><strong>750.00</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                ><div align="right"><strong>0.00</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                ><div align="right"><strong>0.00</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                ><div align="right"><strong>0.00</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                ><div align="right"><strong>250.00</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                ><div align="right"><strong>
+                              </strong></div></td>
+				<td class="bodytext31" valign="center"  align="left" 
+                ><div align="right"><strong>3750.00</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                ><div align="right"><strong>4500.00</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                ><div align="right"></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                >&nbsp;</td>
+              <td class="bodytext31" valign="center"  align="left" 
+                >&nbsp;</td>
+              <td class="bodytext31" valign="center"  align="left" 
+                ><strong>0.00</strong></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                ><div align="right"><strong>0.00</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                ><div align="right"><strong>0.00</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                ><div align="right"><strong>4500.00</strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                ><div align="right"></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                >&nbsp;</td>
+              <td class="bodytext31" valign="center"  align="left" 
+                >&nbsp;</td>
+              <td class="bodytext31" valign="center"  align="left" 
+                >&nbsp;</td>
+              <td class="bodytext31" valign="center"  align="left" 
+                >&nbsp;</td>
+              </tr>
+          </tbody>
+        </table>
+
+
+</body>

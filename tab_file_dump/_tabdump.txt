@@ -1,0 +1,2 @@
+Serial	Category	ItemCode	ItemName	GenericName	Manufacturer	Package	TaxPercent
+1	CAPS	M1784-100G	A7 Agar Base (Shepard’s Differential Agar Base)	Paracetomol	Ranbaxy	10S	5

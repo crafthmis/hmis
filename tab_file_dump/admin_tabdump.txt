@@ -1,0 +1,2 @@
+Serial	Category	ItemCode	ItemName	GenericName	Manufacturer	Package	TaxPercent
+1	Medicines	m1792-100g	a7 agar base (shepard’s differential agar base)	paracetomol	ranbaxy	10s	5

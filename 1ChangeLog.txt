@@ -1,0 +1,51 @@
+Take Manual Backup Before Proceeding.
+Run test16dbcompare
+Run test16dbupdate
+
+04Jun2013
+New field doctorcommission - master_saleslab - decimal - 13,2
+
+
+07May2013
+Settings Table Updated for hospital DOA DOD date display in printout.
+Date will be shown only if allowed in settings and DOA is not zero.
+
+06May2013
+Wishes Printing Enable - Remove Top Text.
+Itemcode Empty Generation Bug - additemhospital, additemlab, additempharmacy
+
+04May2013
+New Sub Menu - Hospital Package Name
+Updates done on invoicereport1labtest.php, sales1labtest.php, 
+sales_edit1listing1labtest.php, sales1scripting1labtest.php
+Enable edit delete option from admin login to lab login.
+New page addpackage1hospital.com
+New table master_packagehospital
+Updates on 
+invoicereport1hospital
+invoicereport1lab
+invoicereport1labtest
+invoicereport1pharmacy
+salesdelete1hospital
+salesdelete1lab
+salesdelete1labtest
+salesdelete1pharmacy
+
+
+
+
+03May2013
+Order By auto_number - autopopulatelabtestitemlist1.php
+New file popup_suppliersearch1.php
+Wishes printing submenu enable.
+
+02May2013
+Rename - Submenu - Discharge Summary - Patient Discharge
+Mainmenu - Enable Utility Menu.
+Rename - Submenu - Backup Full Software (Online) - For existing.
+New Record - master_submenu - Backup Full Software (Offline)
+Update in Edit Employee menu.
+
+
+Package Master
+Patient Visit Tracking
