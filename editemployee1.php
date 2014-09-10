@@ -229,9 +229,7 @@ function funcEmployeeSelect1()
     <td colspan="10" bgcolor="#003399">
 	<?php 
 	
-		include ("includes/menu1.php"); 
-	
-	//	include ("includes/menu2.php"); 
+		//include ("includes/menu1.php"); //	include ("includes/menu2.php"); 
 	
 	?>	</td>
   </tr>

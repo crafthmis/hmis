@@ -116,7 +116,7 @@ function process1()
     <td colspan="9" bgcolor="#8CAAE6"><?php include ("includes/title1.php"); ?></td>
   </tr>
   <tr>
-    <td colspan="9" bgcolor="#003399"><?php include ("includes/menu1.php"); ?></td>
+    <td colspan="9" bgcolor="#003399"><?php //include ("includes/menu1.php"); ?></td>
   </tr>
   <tr>
     <td colspan="9"></td>

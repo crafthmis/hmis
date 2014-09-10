@@ -224,8 +224,7 @@ function from1submit1()
   <tr>
     <td colspan="10" bgcolor="#003399">
 	<?php 
-		include ("includes/menu1.php"); 
-	?>	</td>
+		//include ("includes/menu1.php"); ?>	</td>
   </tr>
   <tr>
     <td colspan="10">&nbsp;</td>

@@ -465,7 +465,7 @@ window.onbeforeunload = function()
   </tr>
   
   <tr>
-    <td colspan="9" bgcolor="#003399"><?php include ("includes/menu1.php"); ?></td>
+    <td colspan="9" bgcolor="#003399"><?php //include ("includes/menu1.php"); ?></td>
   </tr>
 <!--  <tr>
     <td colspan="10">&nbsp;</td>

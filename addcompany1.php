@@ -422,8 +422,7 @@ function from1submit1()
 	}
 	else
 	{
-		include ("includes/menu1.php"); 
-	}
+		//include ("includes/menu1.php"); }
 	?>	</td>
   </tr>
   <tr>

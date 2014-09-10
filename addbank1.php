@@ -306,20 +306,18 @@ function from1submit1()
 
 </script>
 <body>
-<table width="103%" border="0" cellspacing="0" cellpadding="2">
-  <tr>
-    <td colspan="10" bgcolor="#6487DC"><?php include ("includes/alertmessages1.php"); ?></td>
+<table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <!--<tr>
+    <td colspan="10" bgcolor="#6487DC"><?php// include ("includes/alertmessages1.php"); ?></td>
   </tr>
-  <tr>
-    <td colspan="10" bgcolor="#8CAAE6"><?php include ("includes/title1.php"); ?></td>
-  </tr>
+  <!--<tr>
+    <td colspan="10" bgcolor="#8CAAE6"><?php// include ("includes/title1.php"); ?></td>
+  </tr>-->
   <tr>
     <td colspan="10" bgcolor="#003399">
 	<?php 
 	
-		include ("includes/menu1.php"); 
-	
-	//	include ("includes/menu2.php"); 
+		////include ("includes/menu1.php"); //	include ("includes/menu2.php"); 
 	
 	?>	</td>
   </tr>

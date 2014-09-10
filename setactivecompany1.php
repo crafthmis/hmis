@@ -115,8 +115,7 @@ function focusSubmit()
 	<?php 
 	if (isset($_SESSION["companyanum"])) // if the variable is set.
 	{
-		include ("includes/menu1.php"); 
-	}
+		//include ("includes/menu1.php"); }
 	else
 	{
 		include ("includes/menu2.php"); 
