@@ -5,10 +5,9 @@
 	$ipaddress = $_SERVER['REMOTE_ADDR'];
 	$updatedatetime = date('Y-m-d H:i:s');
 	$username=$_SESSION["username"];
-	//$companyanum = $_SESSION["companyanum"];
-	//$companyname = $_SESSION["companyname"];
-	//$_SESSION["financialyear"]='2014';
-	//$financialyear = $_SESSION["financialyear"];
+	$companyanum = $_SESSION["companyanum"];
+	$companyname = $_SESSION["companyname"];
+	$financialyear = $_SESSION["financialyear"];
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">

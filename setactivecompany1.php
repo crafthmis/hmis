@@ -47,7 +47,7 @@ else
 		
 		$_SESSION["financialyear"] = $financialyear;
 		
-		header ("location:mainmenu1.php");
+		header ("location:dashboard.php");
 		//header ("location:setactivefinancialyear1.php");
 		exit;
 	
@@ -116,7 +116,7 @@ function focusSubmit()
 	if (isset($_SESSION["companyanum"])) // if the variable is set.
 	{
 		//include ("includes/menu1.php"); }
-	else
+	}else
 	{
 		include ("includes/menu2.php"); 
 	}

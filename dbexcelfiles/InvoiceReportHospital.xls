@@ -24,10 +24,10 @@ function escapekeypressed()
               <td colspan="26" align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>Hospital Invoice Report</strong></div></td>
             </tr>
             <tr>
-              <td colspan="26" align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#ffffff" class="bodytext31"><div align="center"><strong></strong>&nbsp;</div></td>
+              <td colspan="26" align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>AMF Hospital Private Limited</strong>&nbsp;</div></td>
             </tr>
             <tr>
-              <td colspan="26" align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>Report Date From 2014-09-03 To 2014-09-11</strong></div></td>
+              <td colspan="26" align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>Report Date From 2014-09-05 To 2014-09-13</strong></div></td>
             </tr>
 			<tr>
               <td class="bodytext31" valign="center"  align="left" 
