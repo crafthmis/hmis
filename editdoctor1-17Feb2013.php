@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 include ("includes/loginverify.php");
 include ("db/db_connect.php");
 date_default_timezone_set('Asia/Calcutta'); 
@@ -113,7 +113,7 @@ body {
 <script type="text/javascript" src="js/adddate.js"></script>
 <script type="text/javascript" src="js/adddate2.js"></script>
 <?php
-/*session_start();
+/*
 $auto_number=$_SESSION['session_auto_number_post_job'];//post job auto number
 */
 ?>

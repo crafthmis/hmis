@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 include ("db/db_connect.php");
 
 if (isset($_REQUEST["customersearch"])) { $customersearch = $_REQUEST["customersearch"]; } else { $customersearch = ""; }

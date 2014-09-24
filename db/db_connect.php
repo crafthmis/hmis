@@ -1,11 +1,12 @@
 <?php
-$hostname = '127.0.0.1';
+@session_start();
+$hostname = 'localhost';
 $hostlogin = 'root';
 $hostpassword = '';
 $databasename = 'hospital';
 
 //Folder Name Change Only Necessary
-$appfoldername = 'hospital';
+$appfoldername = 'hmis';
 
 $link = mysql_connect($hostname, $hostlogin, $hostpassword) or die('Could not connect Table : ' . mysql_error());
 mysql_select_db($databasename) or die('Could not select database'. mysql_error());

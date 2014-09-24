@@ -1,5 +1,5 @@
 <?
-session_start();
+
 include ("includes/loginverify.php");
 include ("db/db_connect.php");
 date_default_timezone_set('Asia/Calcutta'); 
@@ -89,7 +89,7 @@ function MM_nbGroup(event, grpName) { //v6.0
 //-->
 </script>
 <?
-/*session_start();
+/*
 $auto_number=$_SESSION[session_auto_number_REQUEST_job];//post job auto number
 */
 ?>

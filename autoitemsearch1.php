@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 //Called from sales1.php - autoitemsearch1.js
 
 include ("db/db_connect.php");

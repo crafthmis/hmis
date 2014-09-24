@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 include ("db/db_connect.php");
 date_default_timezone_set('Asia/Calcutta'); 
 $ipaddress = $_SERVER['REMOTE_ADDR'];
@@ -14,7 +14,7 @@ if (isset($_SESSION["username"]))
 }
 
 session_destroy();
-session_start();
+
 //header ("location:index.php");
 
 

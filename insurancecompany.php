@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 //include ("includes/loginverify.php"); //to prevent indefinite loop, loginverify is disabled.
 if (!isset($_SESSION["username"])) header ("location:index.php");
 include ("db/db_connect.php");

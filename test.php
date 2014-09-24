@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 //Called from purchase1.php - autoitemsearch2.js
 //Item rate called from previous bill entry is done here.
 

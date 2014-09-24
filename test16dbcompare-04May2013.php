@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 set_time_limit(0);
 //include ("db/db_connect.php");
 date_default_timezone_set('Asia/Calcutta'); 

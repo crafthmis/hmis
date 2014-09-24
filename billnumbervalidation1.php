@@ -1,5 +1,5 @@
 F<?php
-session_start();
+
 date_default_timezone_set('Asia/Calcutta');
 include ("db/db_connect.php");
 include ("includes/loginverify.php");

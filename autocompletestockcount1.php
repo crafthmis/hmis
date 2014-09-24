@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 include ("db/db_connect.php");
 $companyanum = $_SESSION['companyanum'];
 $companyname = $_SESSION['companyname'];

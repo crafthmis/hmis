@@ -1,6 +1,4 @@
 <?php
-session_start();
-//echo session_id();
 include ("db/db_connect.php");
 include ("includes/loginverify.php");
 date_default_timezone_set('Asia/Calcutta'); 

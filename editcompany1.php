@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 include ("includes/loginverify.php");
 include ("db/db_connect.php");
 date_default_timezone_set('Asia/Calcutta'); 
@@ -12,7 +12,7 @@ $companyname = $_SESSION["companyname"];
 $errmsg = "";
 
 if (isset($_REQUEST["anum"])) { $companyanum = $_REQUEST["anum"]; } else { $companyanum = ""; }
-if ($companyanum == '') header ("location:addcompany1.php");
+if ($companyanum == '') header ("location:dashboard.php?page=addcompany1.php");
 
 if (isset($_POST["frmflag1"])) { $frmflag1 = $_POST["frmflag1"]; } else { $frmflag1 = ""; }
 if ($frmflag1 == "frmflag1")
@@ -294,7 +294,7 @@ function from1submit1()
     <td width="97%" valign="top">
 
 
-      <form name="form1" id="form1" method="post" action="editcompany1.php?anum=<?php echo $companyanum; ?>" onSubmit="return from1submit1()">
+      <form name="form1" id="form1" method="post" action="dashboard.php?page=editcompany1.php&anum=<?php echo $companyanum; ?>" onSubmit="return from1submit1()">
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
           <td width="860"><table width="800" height="282" border="0" align="left" cellpadding="4" cellspacing="0" bordercolor="#666666" id="AutoNumber3" style="border-collapse: collapse">
@@ -310,67 +310,67 @@ function from1submit1()
               <tr>
                 <td width="21%" align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Hospital Name   *</td>
                 <td colspan="3" align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="companyname" id="companyname" value="<?php echo $companyname; ?>" onKeyDown="return disableEnterKey()" style="border: 1px solid #001E6A" size="60"></td>
+				<input name="companyname" id="companyname"  value="<?php echo $companyname; ?>" onKeyDown="return disableEnterKey()" class="form-control" ></td>
               </tr>
               <tr>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Address 1 </td>
                 <td colspan="3" align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="address1" id="address1" value="<?php echo $address1; ?>" onKeyDown="return disableEnterKey()" style="border: 1px solid #001E6A"  size="60" /></td>
+				<input name="address1" id="address1" value="<?php echo $address1; ?>" onKeyDown="return disableEnterKey()" class="form-control"   /></td>
               </tr>
 				<tr>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Address 2 </td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="address2" id="address2" value="<?php echo $address2; ?>" onKeyDown="return disableEnterKey()" style="border: 1px solid #001E6A"  size="40" /></td>
+				<input name="address2" id="address2" value="<?php echo $address2; ?>" onKeyDown="return disableEnterKey()" class="form-control"   /></td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Area / Location </td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="area" id="area" value="<?php echo $area; ?>" style="border: 1px solid #001E6A"  size="20" /></td>
+				<input name="area" id="area" value="<?php echo $area; ?>" class="form-control"   /></td>
 				</tr><tr>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">State * </td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="state" id="state" value="<?php echo $state; ?>" style="border: 1px solid #001E6A"  size="20" />			</td>
+				<input name="state" id="state" value="<?php echo $state; ?>" class="form-control"   />			</td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">City * </td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="city" id="city" value="<?php echo $city; ?>" style="border: 1px solid #001E6A"  size="20" />			</td>
+				<input name="city" id="city" value="<?php echo $city; ?>" class="form-control"   />			</td>
                 </tr>
 				  <tr>
 			  <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Pincode</td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="pincode" id="pincode" value="<?php echo $pincode; ?>" onKeyDown="return disableEnterKey()" style="border: 1px solid #001E6A"  size="20" /></td>
+				<input name="pincode" id="pincode" value="<?php echo $pincode; ?>" onKeyDown="return disableEnterKey()" class="form-control"   /></td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Country </td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="country" id="country" value="<?php echo $country; ?>" style="border: 1px solid #001E6A"  size="20" />				</td>
+				<input name="country" id="country" value="<?php echo $country; ?>" class="form-control"   />				</td>
 				  </tr>
               <tr>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Phone Number 1 </td>
                 <td width="31%" align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="phonenumber1" id="phonenumber1" value="<?php echo $phonenumber1; ?>" onKeyDown="return disableEnterKey()" style="border: 1px solid #001E6A" size="20" />                </td>
+				<input name="phonenumber1" id="phonenumber1" value="<?php echo $phonenumber1; ?>" onKeyDown="return disableEnterKey()" class="form-control"  />                </td>
                 <td width="20%" align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Phone Number 2 </td>
                 <td width="28%" align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="phonenumber2" id="phonenumber2" value="<?php echo $phonenumber2; ?>" onKeyDown="return disableEnterKey()" style="border: 1px solid #001E6A"  size="20"></td>
+				<input name="phonenumber2" id="phonenumber2" value="<?php echo $phonenumber2; ?>" onKeyDown="return disableEnterKey()" class="form-control"  ></td>
               </tr>
              
               <tr>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Fax Number 1 </td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="faxnumber1" id="faxnumber1" value="<?php echo $faxnumber1; ?>" onKeyDown="return disableEnterKey()" style="border: 1px solid #001E6A"  size="20" /></td>
+				<input name="faxnumber1" id="faxnumber1" value="<?php echo $faxnumber1; ?>" onKeyDown="return disableEnterKey()" class="form-control"   /></td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Fax Number 2 </td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="faxnumber2" id="faxnumber2" value="<?php echo $faxnumber2; ?>" onKeyDown="return disableEnterKey()" style="border: 1px solid #001E6A"  size="20" /></td>
+				<input name="faxnumber2" id="faxnumber2" value="<?php echo $faxnumber2; ?>" onKeyDown="return disableEnterKey()" class="form-control"   /></td>
               </tr>
                <tr>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Email Id 1 </td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="emailid1" id="emailid1" value="<?php echo $emailid1; ?>" onKeyDown="return disableEnterKey()" style="border: 1px solid #001E6A"  size="20"></td>
+				<input name="emailid1" id="emailid1" value="<?php echo $emailid1; ?>" onKeyDown="return disableEnterKey()" class="form-control"  ></td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Email Id 2 </td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="emailid2" id="emailid2" value="<?php echo $emailid2; ?>" onKeyDown="return disableEnterKey()" style="border: 1px solid #001E6A"  size="20"></td>
+				<input name="emailid2" id="emailid2" value="<?php echo $emailid2; ?>" onKeyDown="return disableEnterKey()" class="form-control"  ></td>
               </tr>
                 
               <tr>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">TIN Number </td>
-                <td align="left" valign="middle"  bgcolor="#E0E0E0"><input name="tinnumber" id="tinnumber" value="<?php echo $tinnumber; ?>" style="border: 1px solid #001E6A"  size="20" /></td>
+                <td align="left" valign="middle"  bgcolor="#E0E0E0"><input name="tinnumber" id="tinnumber" value="<?php echo $tinnumber; ?>" class="form-control"   /></td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">CST Number </td>
-                <td align="left" valign="middle"  bgcolor="#E0E0E0"><input name="cstnumber" id="cstnumber" value="<?php echo $cstnumber; ?>" style="border: 1px solid #001E6A"  size="20" /></td>
+                <td align="left" valign="middle"  bgcolor="#E0E0E0"><input name="cstnumber" id="cstnumber" value="<?php echo $cstnumber; ?>" class="form-control"   /></td>
                 </tr>
               <tr>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">&nbsp;</td>
@@ -381,15 +381,15 @@ function from1submit1()
               <tr>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Currency  Name </td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="currencyname" id="currencyname" value="<?php echo $currencyname; ?>" style="border: 1px solid #001E6A;"  size="10" />
+				<input name="currencyname" id="currencyname" value="<?php echo $currencyname; ?>"  class="form-control"   width="30%" />
                     <span class="bodytext3">* Ex: Rupees</span></td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Currency  Decimal Name </td>
-                <td align="left" valign="middle"  bgcolor="#E0E0E0"><input name="currencydecimalname" id="currencydecimalname" value="<?php echo $currencydecimalname; ?>" style="border: 1px solid #001E6A;"  size="10" />
+                <td align="left" valign="middle"  bgcolor="#E0E0E0"><input name="currencydecimalname" id="currencydecimalname" value="<?php echo $currencydecimalname; ?>"  class="form-control"   width="30%" />
                     <span class="bodytext3">* Ex: Paise / Cent </span></td>
               </tr>
               <tr>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Currency  Code </td>
-                <td align="left" valign="middle"  bgcolor="#E0E0E0"><input name="currencycode" id="currencycode" value="<?php echo $currencycode; ?>" style="border: 1px solid #001E6A;text-transform: uppercase;"  size="10" />
+                <td align="left" valign="middle"  bgcolor="#E0E0E0"><input name="currencycode" id="currencycode" value="<?php echo $currencycode; ?>" style="border: 1px solid #001E6A;text-transform: uppercase;"   class="form-control" width="30%" />
                     <span class="bodytext3">* Ex: INR</span></td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">&nbsp;</td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0">&nbsp;</td>
@@ -404,10 +404,10 @@ function from1submit1()
 				
               <tr>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0" class="bodytext3">Date Last Updated </td>
-                <td align="left" valign="middle"  bgcolor="#E0E0E0"><input name="dateposted" id="dateposted" value="<?php echo $dateposted; ?>" onKeyDown="return disableEnterKey()" style="border: 1px solid #001E6A"   size="20"  readonly="readonly" /></td>
+                <td align="left" valign="middle"  bgcolor="#E0E0E0"><input name="dateposted" id="dateposted" value="<?php echo $dateposted; ?>" onKeyDown="return disableEnterKey()" class="form-control"     readonly="readonly" /></td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0"><span class="bodytext3">Hospital Code   *</span></td>
                 <td align="left" valign="middle"  bgcolor="#E0E0E0">
-				<input name="companycode" id="companycode" value="<?php echo $companycode; ?>" readonly="readonly" style="border: 1px solid #001E6A;text-transform: uppercase;" size="20"></td>
+				<input name="companycode" id="companycode"  class="form-control" value="<?php echo $companycode; ?>" readonly="readonly" style="text-transform: uppercase;" ></td>
               </tr>
               
               <tr>
@@ -417,7 +417,7 @@ function from1submit1()
                 <td colspan="4" align="middle"  bgcolor="#cccccc"><div align="right"><font color="#000000" size="1" face="Verdana, Arial, Helvetica, sans-serif"><font color="#000000" size="1" face="Verdana, Arial, Helvetica, sans-serif"><font color="#000000" size="1" face="Verdana, Arial, Helvetica, sans-serif"><font color="#000000" size="1" face="Verdana, Arial, Helvetica, sans-serif"><font color="#000000" size="1" face="Verdana, Arial, Helvetica, sans-serif">
                   <input type="hidden" name="frmflag1" value="frmflag1" />
                   <input type="hidden" name="companyanum" value="<?php echo $companyanum; ?>" />
-                  <input name="Submit222" type="submit"  value="Save Hospital" class="button" style="border: 1px solid #001E6A"/>
+                  <input name="Submit222" type="submit"  value="Save Hospital" class="btn btn-default" class="form-control"/>
                 </font></font></font></font></font></div></td>
               </tr>
             </tbody>

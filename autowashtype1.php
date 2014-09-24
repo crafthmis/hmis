@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 include ("db/db_connect.php");
 $customersearch = $_REQUEST["customersearch"];
 $breakcode = explode('-',$customersearch);

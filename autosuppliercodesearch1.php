@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 include ("db/db_connect.php");
 
 if (isset($_REQUEST["suppliersearch"])) { $suppliersearch = $_REQUEST["suppliersearch"]; } else { $suppliersearch = ""; }
